@@ -1,3 +1,3 @@
 # Dotnet-Mongo
 
-This image has both .NET Core and MongoDB 5.0 installed.
+This image has .NET Core, MongoDB 5.0 and httpbin installed.
