@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:6.0-bullseye-slim AS dotnet-mongo
+FROM mcr.microsoft.com/dotnet/sdk:7.0-bullseye-slim AS dotnet-mongo
 # Install MongoDB
 RUN apt-get update \
 && apt-get install -y apt-utils gnupg dirmngr python3-httpbin \
