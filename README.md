@@ -1,3 +1,3 @@
-# Dotnet-Mongo
+# Dotnet Mongo
 
-This image has .NET Core, MongoDB 5.0 and httpbin installed.
+This image has .NET 7.0 and MongoDB 6.0 installed.
