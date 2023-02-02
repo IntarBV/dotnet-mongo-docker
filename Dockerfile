@@ -7,3 +7,8 @@ RUN apt-get update \
 && apt-get update \
 && apt-get install -y mongodb-org-server mongodb-mongosh\
 && rm -rf /var/lib/apt/lists/*
+
+FROM dotnet-mongo AS with_httpbin
+RUN apt-get update \
+&& apt-get -y install gunicorn python3-httpbin \
+&& rm -rf /var/lib/apt/lists/*
